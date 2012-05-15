@@ -1,6 +1,11 @@
 /*
-	free-standing javascript function to check whether the
+	javascript function to check whether the
 	client browser is currently connected to the internet.
+
+	works independently from external libraries.
+
+	tested in ffox, chrome, ie9
+	opera 11.62 returns false, but doesn't show alert message
 
 	navigator.onLine would be better, but isn't supported
 	problem-free in all browsers.
